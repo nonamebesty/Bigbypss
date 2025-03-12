@@ -74,7 +74,7 @@ async def direct_link_checker(link, onlylink=False):
     elif bool(match(r"https?:\/\/adrinolinks\.\S+", link)):
         blink = await transcript(link, "https://adrinolinks.in", "https://myprivatejobs.com/", 8)
     elif bool(match(r"https?:\/\/krownlinks\.\S+", link)):
-        blink = await transcript(link, "https://go.bloggerishyt.in/", "https://tech.itijobalert.in/", 8)
+        blink = await transcript(link, "https://go.bloggerishyt.in/", "https://www.gyanitheme.com/", 8)
     elif bool(match(r"https?:\/\/(du-link|dulink)\.\S+", link)):
         blink = await transcript(link, "https://du-link.in", "https://profitshort.com/", 0)
     elif bool(match(r"https?:\/\/indianshortner\.\S+", link)):
